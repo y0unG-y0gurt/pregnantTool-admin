@@ -1,0 +1,7 @@
+{
+  "name": "daily-check",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

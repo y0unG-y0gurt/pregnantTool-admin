@@ -1,0 +1,61 @@
+{
+  "passwordSecret": [
+    {
+      "value": "passwordSecret-demo",
+      "version": 1
+    }
+  ],
+  "tokenSecret": "tianxiadiyi",
+  "tokenExpiresIn": 7200,
+  "tokenExpiresThreshold": 600,
+  "passwordErrorLimit": 6,
+  "bindTokenToDevice": false,
+  "passwordErrorRetryTime": 3600,
+  "autoSetInviteCode": false,
+  "forceInviteCode": false,
+  "requestAuthSecret": "",
+  "idCardCertifyLimit": 1,
+  "realNameCertifyLimit": 5,
+  "sensitiveInfoEncryptSecret": "",
+  "app-plus": {
+    "tokenExpiresIn": 2592000,
+    "oauth": {
+      "weixin": {
+        "appid": "",
+        "appsecret": ""
+      },
+      "apple": {
+        "bundleId": ""
+      }
+    }
+  },
+  "mp-weixin": {
+    "oauth": {
+      "weixin": {
+        "appid": "",
+        "appsecret": ""
+      }
+    }
+  },
+  "mp-alipay": {
+    "oauth": {
+      "alipay": {
+        "appid": "",
+        "privateKey": ""
+      }
+    }
+  },
+  "service": {
+    "sms": {
+      "name": "",
+      "codeExpiresIn": 300,
+      "smsKey": "",
+      "smsSecret": ""
+    },
+    "univerify": {
+      "appid": "__UNI__B83A009",
+      "apiKey": "apiKey 和 apiSecret 在开发者中心获取，开发者中心：https://dev.dcloud.net.cn/uniLogin/index?type=0，文档：https://ask.dcloud.net.cn/article/37965",
+      "apiSecret": ""
+    }
+  }
+}

@@ -1,0 +1,5 @@
+[{
+	"menu_id": "uni-vote-admin",
+	"name": "问卷管理",
+	"url": "/uni_modules/uni-vote-admin/pages/uni-vote/list"
+}]
